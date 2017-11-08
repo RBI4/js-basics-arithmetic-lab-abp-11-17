@@ -8,8 +8,10 @@ You should NOT try to redefine any of the above variables.
 */
 
 // Write your code below this line!
-let newID = '(1000000000 + oldID';
+let newID = '1000000000 + oldID';
 
-let ageIsValid = Number.isInteger();
+let ageIsValid = Number.isInteger(); /*good*/
 
-let randomNumber = Math.random();
+let randomNumber = Math.random(); /*good*/
+
+let randomInteger = Math.floor(randomNumber);
