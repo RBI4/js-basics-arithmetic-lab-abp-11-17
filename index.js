@@ -16,4 +16,4 @@ let randomNumber = Math.random(); /*good*/
 
 let randomInteger = Math.floor(randomNumber);
 
-let randomUserID =  Math.floor(randomNumber * 1000000020) + 1000000001;
+let randomUserID =  Math.floor(randomNumber * 1000000020) + 1;
